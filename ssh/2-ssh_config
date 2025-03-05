@@ -1,0 +1,4 @@
+# bash proj
+Host alu-server
+    PasswordAuthentication no
+    Identity ~/.ssh/school
