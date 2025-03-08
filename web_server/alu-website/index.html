@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neema | portifolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="theme-selector">
+        <select class="theme-dropdown" id="theme-select">
+          <option value="dark">Dark Theme</option>
+          <option value="light">Light Theme</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <h1></h1>
+        <p>Web Developer | Designer</p>
+      </section>
+
+      <article id="about" class="fade-in">
+        <div class="about-panel">
+          <img src="images/Neema new.jpg" alt="Neema" />
+          <div class="about-info">
+            <h2>Neema</h2>
+            <p>Full Stack Developer</p>
+            <p>Email: neema@gmail.com</p>
+            <p>Location: Kigali, Rwanda</p>
+          </div>
+        </div>
+      </article>
+
+      <section id="experience" class="fade-in">
+        <h2>Experience</h2>
+        <div>
+          <h3>2020-2022 | SOD</h3>
+          <h4>San Tech Ltd</h4>
+          <p>
+            I took some trainings in San Teck Ltd, a company which is
+            distributing E-visitor system in all places of Rwanda. so i gained
+            some real word experience.
+          </p>
+        </div>
+        <div>
+          <h3>2022-2023 | TESTER</h3>
+          <h4>ALU</h4>
+          <p>
+            ALU is a big institution which teaches more about real world
+            experience, trough provides workshops I gained more about solvibg
+            real world problems and bening innovative in all fiels.
+          </p>
+        </div>
+        <div>
+          <h3>2023-2025 | Internship</h3>
+          <h4>Equity</h4>
+          <p>
+            Database Management field: Banks deal with massive amounts of data.
+            I was assisting in managing and organizing databases, ensuring
+            information is accurate and accessible.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <p>JavaScript, PHP, Python, Java</p>
+        <p>React, Django, Spring Boot</p>
+        <p>SQL, NoSQL</p>
+        <p>REST APIs, Microservices</p>
+      </section>
+
+      <section id="portfolio" class="fade-in">
+        <h2>Portfolio</h2>
+        <div class="scrolling">
+          <img src="images/depreseed 1.jpeg" alt="image 1" />
+          <img src="images/depressed 2.jpeg" alt="image 2" />
+          <img src="images/depressed 3.jpeg" alt="image 3" />
+          <img src="images/happy 1.jpeg" alt="image 4" />
+          <img src="images/happy 2.jpeg" alt="image 5" />
+          <img src="images/happy 4.jpeg" alt="image 6" />
+          <img src="images/happy 5.jpeg" alt="image 7" />
+        </div>
+        <div id="experience" class="fade-in">
+          <div>
+            <h4>Project: MoodTracker</h4>
+            <h4>status: In development</h4>
+            <p>
+              I'm building a basic website for users to pick their present mood
+              out of specified choices at "Mood Tracker". After submission the
+              site shows positive feedback and presents gentle ways to relax
+              such as listening to music or walking for a few minutes. The
+              exercise provided an excellent platform to work on HTML skills and
+              basic JavaScript coding.
+            </p>
+          </div>
+          <div>
+            <h4>Project: Dairlychekup</h4>
+            <h4>status: in development</h4>
+            <p>
+              Through a Python program users can enter what they feel grateful
+              for each day. The program keeps daily input information in a text
+              document. I will gain knowledge in programming fundamentals
+              especially file handling while making this project.
+            </p>
+          </div>
+          <div>
+            <h4>Project: Exercise</h4>
+            <h4>status: pending</h4>
+            <p>
+              I'm building a basic animated GIF format which shows users
+              breathing exercises in step by step directions. The tool presents
+              shifting shapes to assist users in controlling their breathing
+              behavior. Through this project I will gain fundamental knowledge
+              about pictures and animations.also how i can solve the community
+              problem.
+            </p>
+          </div>
+          <div>
+            <h4>Project: House Renting</h4>
+            <h4>status: Developed</h4>
+            <p>
+              Project Name:
+              <a href="https://kodesha-com.vercel.app/">KODESHA.com</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>CONTACT ME</h2>
+        <h3>Neema</h3>
+        <div class="contact-icons">
+          <img src="images/medias logo.jpeg" />
+        </div>
+        <h4>Software Developer & IT Consultant</h4>
+        <div class="contact-info">
+          <p><strong>Phone:</strong> 0780-532-022</p>
+          <p><strong>Email:</strong> neema@mysite.com</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">First name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="name">Last name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="text-center">
+        &copy; <span id="year"></span> copyright all rights reserved
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
