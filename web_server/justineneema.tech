@@ -1,0 +1,17 @@
+server {
+    listen 80;
+    server_name bruceshimwa.tech;
+    error_page 404 /404.html;
+
+    location = /404.html {
+        root /var/www/html;
+    }
+
+    location / {
+        root /home/ubuntu/alu-responsive-resume/;
+    }
+
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=dQw4w9WgXcQ;
+    }
+}
