@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name bruceshimwa.tech;
+    server_name justineneema.tech;
     error_page 404 /404.html;
 
     location = /404.html {
